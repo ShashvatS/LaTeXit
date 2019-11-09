@@ -1,0 +1,11 @@
+A fullTextAnnotation is a structured hierarchical response for the UTF-8 text extracted from the image, organized as Pages→Blocks→Paragraphs→Words→Symbols:
+
+Page is a collection of blocks, plus meta-information about the page: sizes, resolutions (X resolution and Y resolution may differ).
+
+Block represents one "logical" element of the page—for example, an area covered by text, or a picture or separator between columns. The text and table blocks contain the main information needed to extract the text.
+
+Paragraph is a structural unit of text representing an ordered sequence of words. By default, words are considered to be separated by word breaks.
+
+Word is the smallest unit of text. It is represented as an array of Symbols.
+
+Symbol represents a character or a punctuation mark.
