@@ -1,0 +1,353 @@
+text_annotations {
+  locale: "und"
+  description: "+\nD\n+\n"
+  bounding_poly {
+    vertices {
+      x: 153
+      y: 370
+    }
+    vertices {
+      x: 416
+      y: 370
+    }
+    vertices {
+      x: 416
+      y: 1945
+    }
+    vertices {
+      x: 153
+      y: 1945
+    }
+  }
+}
+text_annotations {
+  description: "+"
+  bounding_poly {
+    vertices {
+      x: 306
+      y: 370
+    }
+    vertices {
+      x: 389
+      y: 371
+    }
+    vertices {
+      x: 389
+      y: 442
+    }
+    vertices {
+      x: 306
+      y: 441
+    }
+  }
+}
+text_annotations {
+  description: "D"
+  bounding_poly {
+    vertices {
+      x: 341
+      y: 1845
+    }
+    vertices {
+      x: 416
+      y: 1846
+    }
+    vertices {
+      x: 414
+      y: 1945
+    }
+    vertices {
+      x: 339
+      y: 1944
+    }
+  }
+}
+text_annotations {
+  description: "+"
+  bounding_poly {
+    vertices {
+      x: 237
+      y: 608
+    }
+    vertices {
+      x: 237
+      y: 666
+    }
+    vertices {
+      x: 153
+      y: 665
+    }
+    vertices {
+      x: 153
+      y: 607
+    }
+  }
+}
+full_text_annotation {
+  pages {
+    width: 475
+    height: 4032
+    blocks {
+      bounding_box {
+        vertices {
+          x: 306
+          y: 370
+        }
+        vertices {
+          x: 389
+          y: 371
+        }
+        vertices {
+          x: 389
+          y: 442
+        }
+        vertices {
+          x: 306
+          y: 441
+        }
+      }
+      paragraphs {
+        bounding_box {
+          vertices {
+            x: 306
+            y: 370
+          }
+          vertices {
+            x: 389
+            y: 371
+          }
+          vertices {
+            x: 389
+            y: 442
+          }
+          vertices {
+            x: 306
+            y: 441
+          }
+        }
+        words {
+          bounding_box {
+            vertices {
+              x: 306
+              y: 370
+            }
+            vertices {
+              x: 389
+              y: 371
+            }
+            vertices {
+              x: 389
+              y: 442
+            }
+            vertices {
+              x: 306
+              y: 441
+            }
+          }
+          symbols {
+            property {
+              detected_break {
+                type: EOL_SURE_SPACE
+              }
+            }
+            bounding_box {
+              vertices {
+                x: 306
+                y: 370
+              }
+              vertices {
+                x: 389
+                y: 371
+              }
+              vertices {
+                x: 389
+                y: 442
+              }
+              vertices {
+                x: 306
+                y: 441
+              }
+            }
+            text: "+"
+          }
+        }
+      }
+      block_type: TEXT
+    }
+    blocks {
+      bounding_box {
+        vertices {
+          x: 341
+          y: 1845
+        }
+        vertices {
+          x: 416
+          y: 1846
+        }
+        vertices {
+          x: 414
+          y: 1945
+        }
+        vertices {
+          x: 339
+          y: 1944
+        }
+      }
+      paragraphs {
+        bounding_box {
+          vertices {
+            x: 341
+            y: 1845
+          }
+          vertices {
+            x: 416
+            y: 1846
+          }
+          vertices {
+            x: 414
+            y: 1945
+          }
+          vertices {
+            x: 339
+            y: 1944
+          }
+        }
+        words {
+          bounding_box {
+            vertices {
+              x: 341
+              y: 1845
+            }
+            vertices {
+              x: 416
+              y: 1846
+            }
+            vertices {
+              x: 414
+              y: 1945
+            }
+            vertices {
+              x: 339
+              y: 1944
+            }
+          }
+          symbols {
+            property {
+              detected_break {
+                type: EOL_SURE_SPACE
+              }
+            }
+            bounding_box {
+              vertices {
+                x: 341
+                y: 1845
+              }
+              vertices {
+                x: 416
+                y: 1846
+              }
+              vertices {
+                x: 414
+                y: 1945
+              }
+              vertices {
+                x: 339
+                y: 1944
+              }
+            }
+            text: "D"
+          }
+        }
+      }
+      block_type: TEXT
+    }
+    blocks {
+      bounding_box {
+        vertices {
+          x: 237
+          y: 608
+        }
+        vertices {
+          x: 237
+          y: 666
+        }
+        vertices {
+          x: 153
+          y: 665
+        }
+        vertices {
+          x: 153
+          y: 607
+        }
+      }
+      paragraphs {
+        bounding_box {
+          vertices {
+            x: 237
+            y: 608
+          }
+          vertices {
+            x: 237
+            y: 666
+          }
+          vertices {
+            x: 153
+            y: 665
+          }
+          vertices {
+            x: 153
+            y: 607
+          }
+        }
+        words {
+          bounding_box {
+            vertices {
+              x: 237
+              y: 608
+            }
+            vertices {
+              x: 237
+              y: 666
+            }
+            vertices {
+              x: 153
+              y: 665
+            }
+            vertices {
+              x: 153
+              y: 607
+            }
+          }
+          symbols {
+            property {
+              detected_break {
+                type: EOL_SURE_SPACE
+              }
+            }
+            bounding_box {
+              vertices {
+                x: 237
+                y: 608
+              }
+              vertices {
+                x: 237
+                y: 666
+              }
+              vertices {
+                x: 153
+                y: 665
+              }
+              vertices {
+                x: 153
+                y: 607
+              }
+            }
+            text: "+"
+          }
+        }
+      }
+      block_type: TEXT
+    }
+  }
+  text: "+\nD\n+\n"
+}
